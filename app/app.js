@@ -9,7 +9,8 @@
         'ngMockE2E',
         'datatables',
         'backand',
-        'uiGmapgoogle-maps'
+        'uiGmapgoogle-maps',
+        'ngMap'
     ])
     .config(config)
     .run(run);

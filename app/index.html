@@ -19,7 +19,9 @@
     <!-- endinject -->
     <!-- endbuild -->
     <link rel="stylesheet" href="vendor/alertifyjs/dist/css/alertify.css">
-    <script src='//maps.googleapis.com/maps/api/js'></script>
+    <!--google api-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDUQVimvvMF6OGukcy9Mh2kmzLKI7MsxM&callback=initMap"></script>
+    <!--end google api-->
 </head>
 
 <body>
@@ -105,6 +107,7 @@
     <script src="vendor/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.js"></script>
     <script src="vendor/js-rich-marker/src/richmarker.js"></script>
     <script src="vendor/angular-google-maps/dist/angular-google-maps.js"></script>
+    <script src="vendor/ngmap/build/scripts/ng-map.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -127,6 +130,7 @@
     <script src="components/menu/menu.js"></script>
     <script src="states/hi/hi.js"></script>
     <script src="states/home/home.js"></script>
+    <script src="states/map/map.js"></script>
     <script src="states/news/news.js"></script>
     <script src="states/rx/rx.js"></script>
     <script src="states/users/users-edit.js"></script>
