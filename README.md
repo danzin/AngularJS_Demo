@@ -1,34 +1,17 @@
-Repository containing the angular js demo project files. In development... 
-I. Sport - Fitness
+First Angular Demo project. It is a SPA application with Angular in the form of a personal fitness diary containing the following functionalities:
 
-II. Functionalities:
+1. Main page with navigation to the other functionalities the application has.
 
-Calculator List with music Training Calendar Types of trainings Map Locator
+2. Calculator:
+ 2.1 Collecting information from the user (Weight,Height,Sex,Age) and returning possible exercise and calorie-intake options.
 
-Calculator
+3. Music List (TO-DO style):
+ 3.1 Add, Remove songs to listen later (CRUD).
 
-1.1 Information collect from user: o Weight o Height o Sex o Age
+4. Training Calendar:
+ 4.1 Buttons to add types of training (Draggable?) .
 
-1.2 Type of training that user choose o Heavy train o Mid-train o Light train
+5.  Dictionary page with listed information about training regimes, etc.
 
-1.3 Result output
-
-2.0 List with Music
- 2.1 To-Do List Style 
- o Add 
- o Remove 
- o CRUD
-
-3.0 Training Calendar 
-
-3.1 Buttons to add types of training (Draggable) 
-
-3.2 For different hours Types of trainings 
-
-4.1 Pop-up at Calendar
-
-4.2 Also Dictionary page (at footer top)
-
-5.0 Map Locator for training centers
-
-5.1 Gym locations little icons and names
+6. Map Locator for training centers:
+ 6.1 Real-time input style for names, description and address of gym centers. Map pins and infowindows for each pin get added.
