@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="calculator">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2>Training calculator</h2>
+                <p>Enter your weight, height, age and sex below and choose type of training</p>
+            </div>
+            <div class="panel-body" ng-controller="CalculatorController as calculatorCtrl">
+                <form class="form-inline" ng-submit="calculatorCtrl.addInput(current)">
+                    <div class="form-group">
+                        <label for="weight">Weight:</label>
+                        <input ng-model="calculatorCtrl.userInput.weight" type="number" class="form-control" id="weight" placeholder="Enter weight in kg"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="height">Height:</label>
+                        <input ng-model="calculatorCtrl.userInput.height" type="number" class="form-control" id="height" placeholder="Enter height in cm"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input ng-model="calculatorCtrl.userInput.age" type="number" class="form-control" id="age" placeholder="Enter age" required>
+                    </div>
+                    <div class="radio">
+                        <label>Gender:</label>
+                        <label><input ng-model="calculatorCtrl.userInput.gender" type="radio" name="gender" value="Male">Male</label>
+                        <label><input ng-model="calculatorCtrl.userInput.gender" type="radio" name="gender" value="Female">Female</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" ng-click="calculatorCtrl.showElement()">Submit</button>
+                </form>
+                <div class="well" ng-show="typesOfTrainings">
+                    <div class="row">
+                        <div class="col-md-3">Your weight is: {{calculatorCtrl.userInput.weight}}</div>
+                        <div class="col-md-3">Your height is: {{calculatorCtrl.userInput.height}}</div>
+                        <div class="col-md-3">Your age is: {{calculatorCtrl.userInput.age}}</div>
+                        <div class="col-md-3">Your gender is: {{calculatorCtrl.userInput.gender}}</div>
+                    </div>
+                </div>
+
+                <div class="well well-lg radio">
+                    <label>Choose your train:</label>
+                    <label><input type="radio" name="training" value="Heavy">Heavy</label>
+                    <label><input type="radio" name="training" value="Middle">Middle</label>
+                    <label><input type="radio" name="training" value="Light">Light</label>
+                    <button class="btn btn-primary">Choose</button>
+                </div>
+            </div>
+            Results:
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
