@@ -10,7 +10,8 @@
         'datatables',
         'backand',
         'uiGmapgoogle-maps',
-        'ngMap'
+        'ngMap',
+        'ngMessages'
     ])
     .config(config)
     .run(run);
