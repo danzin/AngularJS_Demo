@@ -31,6 +31,7 @@
 
     controller.$inject = ['$scope', 'survey', '$timeout'];
     function controller($scope, survey, $timeout) {
+       
         $scope.survey = survey;
 
         $scope.sayHi = sayHi;

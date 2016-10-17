@@ -3,46 +3,55 @@
 
     angular
         .module('app')
-        .directive('homeState', directive)
+        .directive('home', home)
         .config(config);
 
     config.$inject = ['$stateProvider'];
     function config($stateProvider) {
         $stateProvider
             .state('home', {
-                url: '/',
-                title: 'Home',
-                template: '<home-state></home-state>'
+                url: '/home',
+                template: '<home name="\'home\'"></home>',
+                params: {site: ''}
             });
     }
 
-    function directive() {
+    function home() {
         var directive = {
             templateUrl: './states/home/home.html',
             restrict: 'E',
             controller: controller,
-            scope: {}
+            scope: {
+                name: '='
+            }
         };
 
         return directive;
     }
 
-    controller.$inject = ['$scope', '$rootScope', 'api', '$state'];
-    function controller($scope, $rootScope, api, $state) {
-        $scope.goto = function (site) {
-            $state.go('hi', {site: site})
+//Using all the services in the project
+    controller.$inject = ['$scope', 'music', 'calculatorService', 'calendarService', 'dictionary', 'mapService'];
+    function controller($scope, music, calculatorService, calendarService, dictionary, mapService) {
+        $scope.music = music;
+        $scope.calculatorService = calculatorService;
+        $scope.calendarService = calendarService;
+        $scope.dictionary = dictionary;
+        $scope.mapService = mapService;
+
+        $scope.showTitle = showTitle;
+        $scope.showSubTitle = showSubTitle;
+
+//Function that shows the Title in the page
+        function showTitle() {
+            return 'Angular Demo Home Page';
+        }
+
+//Function that shows the SubTitle in the page
+        function showSubTitle() {
+            return 'Functionalities Map';
         }
 
 
-        api
-        .get('users')
-        .then(function (res) {
-            console.log(res.data);
-        });
-
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
     }
 
 }(angular));

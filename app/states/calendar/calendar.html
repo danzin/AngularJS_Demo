@@ -1,0 +1,165 @@
+<div class="row mainTemplate">
+	<div class="col-xs-12">
+		<div class="row">
+			<!-- This div contains form for adding discilipes in calendar. --> 
+			<div class="col-xs-12 col-md-8 addForm">
+				<h1 class="text-center">Add Training In Calendar</h1>
+				<!-- Form. -->
+				<form class="pull-left" 
+				name="trainingProgramForm" 
+				novalidate="novalidate" 
+				ng-submit="trainingProgramForm.$valid && addDisciplineInProgram()" >
+					<!-- Radio buttons for selected day of week. -->
+					<ul class="col-xs-6 col-md-12 chooseTrainigDay">
+						<h4>Pick a Day:</h4>
+						<li>
+							<label for="One">Monday</label>
+							<input type="radio" name="clickedDay" required="required" ng-model="currentSelection.Day" id="One" value="one">
+						</li>
+						<li>
+							<label for="Two">Tuesday</label>
+							<input type="radio" name="clickedDay" required="required" ng-model="currentSelection.Day" id="Two" value="two">
+						</li>
+						<li>
+							<label for="Three">Wednesday</label>
+							<input type="radio" name="clickedDay" required="required" ng-model="currentSelection.Day" id="Three" value="three">
+						</li>
+						<li>
+							<label for="Four">Thursday</label>
+							<input type="radio" name="clickedDay" required="required" ng-model="currentSelection.Day" id="Four" value="four">
+						</li>
+						<li>
+							<label for="Five">Friday</label>
+							<input type="radio" name="clickedDay" required="required" ng-model="currentSelection.Day" id="Five" value="five">
+						</li>
+						<li>
+							<label for="Six">Saturday</label>
+							<input type="radio" name="clickedDay" required="required" ng-model="currentSelection.Day" id="Six" value="six">
+						</li>
+						<li>
+							<label for="Seven">Sunday</label>
+							<input type="radio" name="clickedDay" required="required" ng-model="currentSelection.Day" id="Seven" value="seven">
+						</li>
+						<!-- Show this message if inputs is invalid. -->
+						<div class="errorMes" ng-show="!trainingProgramForm.clickedDay.$pristine && trainingProgramForm.clickedDay.$invalid">Please select day of the week!</div>
+					</ul>
+					<!-- Radio buttons for selected discipline. -->
+					<ul class="col-xs-6 col-md-12 chooseTrainig">
+						<h4>Pick Training:</h4>
+						<li>
+							<label for="first">Fitness</label><!-- Fitness-1 -->
+							<input type="radio" name="clickedtraining" required="required" ng-model="currentSelection.Training" id="first" value="Fitness">
+						</li>
+						<li>
+							<label for="second">Running</label><!-- Running-2 -->
+							<input type="radio" name="clickedtraining" required="required" ng-model="currentSelection.Training" id="second" value="Running">
+						</li>
+						<li>
+							<label for="third">Swimming</label><!-- Swimming-3-->
+							<input type="radio" name="clickedtraining" required="required" ng-model="currentSelection.Training" id="third" value="Swimming">
+						</li>
+						<!-- Show this message if inputs is invalid. -->
+						<div class="errorMes" ng-show="!trainingProgramForm.clickedtraining.$pristine && trainingProgramForm.clickedtraining.$invalid">Please select one of the disciplines!</div>
+					</ul>
+					<!-- Button for submit information. -->
+					<div class="col-xs-12 text-center btn-addTraining">
+						<button type="submit" 
+						class="btn btn-primary" 
+						name="subButton" 
+						ng-click="trainingProgramForm.clickedDay.$pristine=false; trainingProgramForm.clickedtraining.$pristine=false"><span class="glyphicon glyphicon-edit"></span> Add  Workout</button>
+					</div>
+				</form>
+			</div>
+			<!-- This div contains form for delete all disciplines from selected day of week. -->
+			<div class="col-xs-12 col-md-4">
+				<h1 class="text-center">Delete Workout From Calendar</h1>
+				<!-- Form. -->
+				<form class="dellForm" 
+				name="deleteAllWorkoutsForDay" 
+				novalidate="novalidate" 
+				ng-submit="deleteAllWorkoutsForDay.$valid && deleteWorkoutInCalendar()" >
+					<h4>Pick a Day:</h4>
+					<!-- This button showing a menu for selecting the day of the week. -->
+					<button type="button" 
+					class="row btn btn-info buttonCollapse" 
+					data-toggle="collapse" 
+					data-target="#demo">
+					<span class="glyphicon glyphicon-menu-hamburger"></span> Select Day From Calendar</button>
+
+					<div id="demo" class="collapse">
+						<!-- Show this message if inputs is invalid. -->
+						<div class="errorMes" ng-show="!deleteAllWorkoutsForDay.deleteDay.$pristine && deleteAllWorkoutsForDay.deleteDay.$invalid">Please select day of the week!</div>
+						<!-- Radio buttons for select day of the week, and delete disciplies in this day -->
+						<ul class="deleteTrainig">
+							<li>
+								<label for="elementOne">Monday</label>
+								<input type="radio" name="deleteDay" required="required" ng-model="selected.dayForDeleting" id="elementOne" value="one">
+							</li>
+							<li>
+								<label for="elementTwo">Tuesday</label>
+								<input type="radio" name="deleteDay" required="required" ng-model="selected.dayForDeleting" id="elementTwo" value="two">
+							</li>
+							<li>
+								<label for="elementThree">Wednesday</label>
+								<input type="radio" name="deleteDay" required="required" ng-model="selected.dayForDeleting" id="elementThree" value="three">
+							</li>
+							<li>
+								<label for="elementFour">Thursday</label>
+								<input type="radio" name="deleteDay" required="required" ng-model="selected.dayForDeleting" id="elementFour" value="four">
+							</li>
+							<li>
+								<label for="elementFive">Friday</label>
+								<input type="radio" name="deleteDay" required="required" ng-model="selected.dayForDeleting" id="elementFive" value="five">
+							</li>
+							<li>
+								<label for="elementSix">Saturday</label>
+								<input type="radio" name="deleteDay" required="required" ng-model="selected.dayForDeleting" id="elementSix" value="six">
+							</li>
+							<li>
+								<label for="elementSeven">Sunday</label>
+								<input type="radio" name="deleteDay" required="required" ng-model="selected.dayForDeleting" id="elementSeven" value="seven">
+							</li>
+						</ul>
+					</div>
+					<br>
+					<div class="row">
+						<!-- Button for submit information. -->
+						<button type="submit" 
+						class="btn btn-primary" 
+						name="subDelButton" 
+						ng-click="deleteAllWorkoutsForDay.deleteDay.$pristine=false">
+						<span class="glyphicon glyphicon-trash"></span> Delete Workout</button>
+					</div>
+				</form>
+			</div>
+		</div>	
+		<!-- This div contains table with information about training program. -->
+		<div class="row table-row">
+			<div class="col-xs-12">
+				<table class="table">
+				    <thead>
+				    	<tr>
+				    		<th class="text-center">Monday</th>
+				    		<th class="text-center">Tuesday</th>
+				    		<th class="text-center">Wednesday</th>
+				    		<th class="text-center">Thursday</th>
+				    		<th class="text-center">Friday</th>
+				    		<th class="text-center">Saturday</th>
+				    		<th class="text-center">Sunday</th>
+				    	</tr>
+				    </thead>
+					<tbody>
+						<tr>
+							<!-- With 'ng-repeat' fill the table with recent data. -->
+				      		<td ng-repeat="dayOfWeek in days" class="text-center">
+				      			<div id="tableDisc" ng-repeat="disc in dayOfWeek">
+				      				{{disc}}
+				      			</div>
+				      		</td>
+				      	</tr>
+				    </tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

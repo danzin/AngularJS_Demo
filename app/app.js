@@ -9,14 +9,16 @@
         'ngMockE2E',
         'datatables',
         'backand',
-        'uiGmapgoogle-maps'
+        'uiGmapgoogle-maps',
+        'ngMap',
+        'ngMessages'
     ])
     .config(config)
     .run(run);
 
     config.$inject = ['$urlRouterProvider', 'BackandProvider', '$translateProvider', 'translationDe'];
     function config($urlRouterProvider, BackandProvider, $translateProvider, translationDe) {
-        $urlRouterProvider.otherwise('/hi');
+        $urlRouterProvider.otherwise('/home');
 
         BackandProvider.setAppName('betgame');
         BackandProvider.setSignUpToken('a9e5e2d4-df03-4fd2-9e91-a905f457e8a8');

@@ -1,0 +1,53 @@
+<h2 class="text-center">List of exercises and their descriptions</h2><br />
+<p>Here you can find a list of the most important fitness exercises and their descriptions.</p>
+<p>You can also share your experience by <b>adding</b> new exercises, or <b>edit</b> the existing ones, if you think there is a better way to do them.</p>
+<p>You can use delete button to delete some rows, if you need.</p><br />
+
+<form class="form-horizontal" ng-submit="add()">
+  <div  class="form-group">
+    <label class="control-label col-sm-2" for="name">Name: </label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" name="name" ng-model="name" required>
+    </div>
+  </div>
+  
+  <div  class="form-group">
+    <label class="control-label col-sm-2" for="description">Description: </label>
+    <div class="col-sm-6">
+      <textarea name="description" class="form-control" rows="3" ng-model="description" required></textarea>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <input type="submit" value="Submit" class="btn btn-success">
+    </div>
+  </div>
+</form>
+
+<div>
+  <table class="table table-hover table-striped">
+    <tr >
+      <th width="5%">ID</th>
+      <th width="20%">Name</th> 
+      <th width="60%">Description</th>
+      <th width="15%">Edit</th>
+    </tr>
+    <tr ng-repeat="x in service.data" >
+      <td>{{ $index + 1}}</td>
+      <td ng-if="!x.editMode">{{ x.name }}</td>
+      <td ng-if="!x.editMode">{{ x.description }}</td>
+      <td ng-if="!x.editMode">
+        <input type="button" value="Edit"  class="btn btn-primary" ng-click="service.edit(x)" >
+      <input type="button" value="Delete" class="btn btn-danger" ng-click="service.remove($index)">
+      </td>
+
+      <td ng-if="x.editMode"><input type="text" ng-model="x.name" /></td>
+        <td ng-if="x.editMode"><textarea ng-model="x.description" rows="3" cols="100"></textarea></td>
+        <td ng-if="x.editMode">
+            <button class="btn btn-success btn-sm" ng-click="service.save(x)" >Save</button>
+            <button class="btn btn-info btn-sm" ng-click="service.cancel(x)">Cancel</button>
+        </td>
+    </tr>
+  </table>
+</div>

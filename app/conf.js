@@ -22,7 +22,7 @@
                 api: '/1/objects/',
             },
             menu: [
-                {label: 'RX', state: 'rx'}, 
+                {label: 'Home', state: 'home'}, 
             ],
             get: get(),
         };

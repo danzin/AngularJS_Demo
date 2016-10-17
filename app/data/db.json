@@ -1,0 +1,76 @@
+{
+  "mapsData": [
+    {
+      "id": "sde",
+      "name": "sde",
+      "address": "Sofia, Bulgaria",
+      "description": "sd"
+    },
+    {
+      "id": "ssdfdsfdsfs",
+      "name": "ssdfdsfdsfs",
+      "address": "sdfdsdsdfdssdfsd",
+      "description": "sdfsdfdsfsd"
+    },
+    {
+      "id": "dsfsd",
+      "name": "dsfsd",
+      "address": "Sofia, Bulgaria",
+      "description": "dsfs"
+    },
+    {
+      "id": "sdfsd",
+      "name": "sdfsd",
+      "address": "Sofia, Bulgaria",
+      "description": "sdfds"
+    },
+    {
+      "id": "dfd",
+      "name": "dfd",
+      "address": "ssdssd",
+      "description": "sdfds"
+    },
+    {
+      "id": "dsfds",
+      "name": "dsfds",
+      "address": "Sofia, Bulgaria",
+      "description": "sdfsd"
+    },
+    {
+      "id": "dsfs",
+      "name": "dsfs",
+      "address": "Sofia, Bulgaria",
+      "description": "sdfds"
+    },
+    {
+      "id": "sdfds",
+      "name": "sdfds",
+      "address": "sdfds",
+      "description": "sdfds"
+    },
+    {
+      "id": "fdfd",
+      "name": "fdfd",
+      "address": "Sofia, Bulgaria",
+      "description": "dfd"
+    },
+    {
+      "id": "dfdf",
+      "name": "dfdf",
+      "address": "Sofia, Bulgaria",
+      "description": "sdfdsfd"
+    },
+    {
+      "id": "ssdsds",
+      "name": "ssdsds",
+      "address": "asdasd",
+      "description": "asdasda"
+    },
+    {
+      "id": "asdasd",
+      "name": "asdasd",
+      "address": "Sofia, Bulgaria",
+      "description": "asdasd"
+    }
+  ]
+}

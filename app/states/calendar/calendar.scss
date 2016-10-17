@@ -1,0 +1,133 @@
+.mainTemplate {
+	// Here stylize radio buttons for selecting day.
+	.chooseTrainigDay {
+		padding-left: 0;
+		li {
+			color: #31B0D5;
+			border: 2px solid #31B0D5;
+			list-style: none;
+			border-radius: 5px;
+			padding: 5px;
+			margin: 5px;
+			display: inline;
+		}
+	}
+	// Here stylize radio buttons for selecting disciplines.
+	.chooseTrainig {
+		padding-left: 0;
+		li {
+			color: #31B0D5;
+			border: 2px solid #31B0D5;
+			list-style: none;
+			border-radius: 5px;
+			padding: 5px;
+			margin: 5px;
+			display: inline;
+		}
+	}
+	// Here stylize radio buttons for selecting day for delete disciplines.
+	.deleteTrainig {
+		display: block;
+		font-size: 20px;
+		padding: 5px;
+		margin: 5px;
+		li {
+			color: #31B0D5;
+			padding: 2px;
+			margin: 5px;
+			list-style: none;
+			text-align: center;
+		}
+	}
+	// Stylize form for add disciplines.
+	.addForm {
+		border-right: 2px solid #31B0D5;
+	}
+	// Stylize form for remove disciplines.
+	.dellForm {
+		margin-left: 5px;
+		h4 {
+			margin-top: 13%;
+		}
+		.buttonCollapse {
+			margin-bottom: 1%;
+		}
+	}
+
+	.table-row {
+		margin-top: 5%;
+	}
+	// Stylize error message.
+	.errorMes {
+		color: red;
+		font-weight: bold;
+	}
+
+	h1 {
+		font-family: Papyrus, fantasy;
+	}
+	// Stylize table with training information.
+	table {
+		th {
+			font-family: Papyrus, fantasy;
+			font-size: 2em;
+		}
+		div {
+			font-family: Papyrus, fantasy;
+			font-size: 2em;
+			font-weight: bold;
+			background-color: #e6ffe6;
+			margin: 1%;
+		}
+	}
+	// Here stylize when screen width it is less than 1200 pixels.
+	@media only screen and (max-width: 1200px) {
+		// Here stylize radio buttons for selecting day.
+		.chooseTrainigDay {
+			padding-left: 0;
+			li {
+				border: 2px solid #31B0D5;
+				list-style: none;
+				border-radius: 5px;
+				padding: 5px;
+				margin: 5px;
+				display: block;
+			}
+		}
+		// Here stylize radio buttons for selecting disciplines.
+		.chooseTrainig {
+			padding-left: 0;
+			li {
+				border: 2px solid #31B0D5;
+				list-style: none;
+				border-radius: 5px;
+				padding: 5px;
+				margin: 5px;
+				display: block;
+			}
+		}
+		// Stylize form for add disciplines.
+		.addForm {
+			border: none;
+		}	
+		// Stylize error message.
+		.errorMes {
+			display: inline;
+		}
+		// Stylize table with training information.
+		table {
+		th {
+			font-family: Papyrus, fantasy;
+			font-size: 1em;
+		}
+		div {
+			font-family: Papyrus, fantasy;
+			font-size: 1em;
+			margin: 1%;
+		}
+	}
+	}
+}
+
+
+
