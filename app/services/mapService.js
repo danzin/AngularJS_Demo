@@ -1,9 +1,7 @@
 (function (angular) {
     'use strict';
 
-
     var data = [];
-
 
     angular
         .module('app')
@@ -25,15 +23,15 @@
         function getMapData() {
             $http.get('http://localhost:3005/mapsData')
                 .then(function success(response) {
-                        // console.log(response.data);
+                    // console.log(response.data);
 
-                        response.data.forEach(function (addressObject) {
-                            data.push(addressObject);
-                        })
-                    },
-                    function error(response) {
-                        // console.log(response.statusText);
-                    });
+                    response.data.forEach(function (addressObject) {
+                        data.push(addressObject);
+                    })
+                },
+                function error(response) {
+                    // console.log(response.statusText);
+                });
         }
 
 
@@ -61,50 +59,61 @@
             // Update DB.
             $http.post('http://localhost:3005/mapsData', JSON.stringify(newAddressAddedData), config)
                 .then(function success(response) {
-                        // console.log(response.data)
-                        console.log('Adding new address in DB succeeded!')
+                    // console.log(response.data)
+                    console.log('Adding new address in DB succeeded!')
 
-                    },
-                    function error(response) {
-                        console.log('Adding new address in DB failed!')
+                },
+                function error(response) {
+                    console.log('Adding new address in DB failed!')
 
-                    });
-
+                });
         }
 
         function deleteLocations() {
 
             //Update UI.
             data = [];
+            var allObjectsIdsToDelete = [];
 
             //Update DB.
             $http.get('http://localhost:3005/mapsData')
                 .then(function success(response) {
-                        console.log(response.data);
+                    // console.log(response.data);
 
-                        response.data.forEach(function (addressObject) {
-                            var currentObjectIdToDelete = addressObject.id;
+                    response.data.forEach(function (addressObject) {
 
-                            $http.delete('http://localhost:3005/mapsData/' + currentObjectIdToDelete)
-                                .then(function success(response) {
-                                        // console.log(response.data)
-                                        console.log('Deleting all addresses in DB succeeded!')
+                        allObjectsIdsToDelete.push(addressObject.id);
 
-                                    },
-                                    function error(response) {
-                                        console.log('Deleting all addresses in DB failed!')
+                    })
 
-                                    });
+                    console.log(allObjectsIdsToDelete)
 
+                },
+                function error(response) {
+                    console.log(response.statusText);
+                })
+                .then(function () {
+                    allObjectsIdsToDelete.forEach(function (idToDelete) {
+
+                        $http({
+                            method: "DELETE",
+                            url: 'http://localhost:3005/mapsData/' + idToDelete.toLowerCase()
                         })
+                            .then(function success(response) {
+                                // console.log(response.data)
+                                console.log(response.data)
+                                // console.log('Deleting current in DB succeeded!')
 
-                    },
-                    function error(response) {
-                        console.log(response.statusText);
-                    });
+                            },
+                            function error(err) {
+                                console.log('Deleting current in DB failed!')
+                                console.log(err)
+
+                            });
+                    })
+                })
 
             return data;
-
         }
 
         function deleteCertainLocation(nameToDelete) {
@@ -125,16 +134,14 @@
             // Update database.
             $http.delete('http://localhost:3005/mapsData/' + nameToDelete.toLowerCase())
                 .then(function success(response) {
-                        // console.log(response.data)
-                        console.log('Deleting a certain address in DB succeeded!')
+                    // console.log(response.data)
+                    console.log('Deleting a certain address in DB succeeded!')
 
-                    },
-                    function error(response) {
-                        // console.log(response.statusText);
-                        console.log('Deleting a certain address in DB succeeded!')
-                    });
-
-
+                },
+                function error(response) {
+                    // console.log(response.statusText);
+                    console.log('Deleting a certain address in DB succeeded!')
+                });
         }
 
         // Function created for Niki to use
@@ -143,4 +150,4 @@
         }
     }
 
-}(angular));
+} (angular));

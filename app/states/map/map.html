@@ -23,7 +23,7 @@
     <div id="rightside-menu-container">
         <div id="add-gym-container">
             <h4>Add A Gym</h4>
-            <form ng-submit="submit()" name="myAddForm">
+            <form ng-submit="submit()" novalidate name="myAddForm">
 
                 <div class="form-group row">
                     <label for="gym-name" class="col-xs-4 col-form-label">Name</label>
@@ -75,7 +75,7 @@
 
         <div id="delete-gym-container">
             <h4>Delete A Gym</h4>
-            <form ng-submit="deleteCertainMarker()" name="myDeleteForm">
+            <form ng-submit="deleteCertainMarker()" novalidate name="myDeleteForm">
                 <div class="form-group row">
                     <label for="certain-gym-delete" class="col-xs-4 col-form-label">By Name</label>
                     <div class="col-xs-8">
