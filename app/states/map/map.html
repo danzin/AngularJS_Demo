@@ -1,0 +1,93 @@
+<div id="main-container">
+
+    <div id="map-container">
+        <ng-map zoom="12" center="{{text}}" default-style="false">
+
+            <!--Real-time marker adding-->
+            <marker ng-repeat="p in mapService.data" id="{{p.id}}" position="{{p.address}}" on-click="showDetail(p)">
+            </marker>
+
+            <info-window id="pop-up" visible-on-marker="{{p.id}}">
+                <div ng-non-bindable="">
+
+                    <b>Name:</b> {{currentName}}<br/>
+                    <b>Address:</b> {{currentAddress}}<br/>
+                    <b>Description:</b> {{currentDescription}}
+                </div>
+            </info-window>
+
+        </ng-map>
+    </div>
+
+    <br>
+    <div id="rightside-menu-container">
+        <div id="add-gym-container">
+            <h4>Add A Gym</h4>
+            <form ng-submit="submit()">
+
+                <div class="form-group row">
+                    <label for="gym-name" class="col-xs-4 col-form-label">Name</label>
+                    <div class="col-xs-8">
+                        <input type="text" ng-model="name" id="gym-name" name="name" placeholder="Gym's Name"
+                               class="form-control" required/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="gym-address" class="col-xs-4 col-form-label">Address</label>
+                    <div class="col-xs-8">
+                        <input type="text" ng-model="text" id="gym-address" name="text" placeholder="Gym's Address"
+                               class="form-control" required/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="gym-description" class="col-xs-4 col-form-label">Description</label>
+                    <div class="col-xs-8">
+                        <input type="text" ng-model="description" id="gym-description" name="text"
+                               placeholder="Gym's Description" class="form-control" required/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-8"></div>
+                    <input type="submit" id="submit" value="Submit" class="btn btn-success col-xs-4"/>
+                </div>
+            </form>
+        </div>
+
+        <div id="delete-gym-container">
+            <h4>Delete A Gym</h4>
+            <form ng-submit="deleteCertainMarker()">
+                <div class="form-group row">
+                    <label for="certain-gym-delete" class="col-xs-4 col-form-label">By Name</label>
+                    <div class="col-xs-8">
+                        <input type="text" ng-model="certain" id="certain-gym-delete" name="text"
+                               placeholder="Gym's Name" class="form-control" required/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-xs-8"></div>
+                    <input type="submit" id="delete-certain" value="Delete" class="btn btn-danger col-xs-4"/>
+                </div>
+            </form>
+        </div>
+
+        <div id="more-options-menu-container">
+
+            <h4>More Options</h4>
+
+            <div class="form-group row">
+                <input ng-click="hideMarkers()" type=button value="Hide All Gyms" class="btn btn-warning  col-xs-12">
+            </div>
+            <div class="form-group row">
+                <input ng-click="showMarkers()" type=button value="Show All Gyms" class="btn btn-success  col-xs-12">
+            </div>
+            <div class="form-group row">
+                <input ng-click="deleteMarkers()" type=button value="Delete All Gyms" class="btn btn-danger  col-xs-12">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+

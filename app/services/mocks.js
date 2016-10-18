@@ -11,7 +11,7 @@
         // allowes to use regular expression when matching url
         function rx(regexp) {
             return {
-                test: function(url) {
+                test: function (url) {
                     // do not add the api url on resources starting with dot e.g. ./states/*
                     var tstUrl = regexp[0] === '.' ? regexp : conf.api + regexp
                     this.matches = url.match(tstUrl);
@@ -27,25 +27,31 @@
         // Account confuration
         $httpBackend.whenGET(rx('users'))
             .respond(mockData.users);
+        $httpBackend.whenPOST(rx('.*'))
+            .passThrough();
+        $httpBackend.whenPUT(rx('.*'))
+            .passThrough();
+        $httpBackend.whenDELETE(rx('.*'))
+            .passThrough();
 
         /**
          * Real apis
          */
         // do not mock the htmls and other state resources
         $httpBackend.whenGET(rx('\./*'))
-                .passThrough();
+            .passThrough();
 
         $httpBackend.whenGET(rx('.*backand\.com.*'))
-                .passThrough();
+            .passThrough();
         $httpBackend.whenPOST(rx('.*backand\.com.*'))
-                .passThrough();
+            .passThrough();
         $httpBackend.whenPUT(rx('.*backand\.com.*'))
-                .passThrough();
+            .passThrough();
         $httpBackend.whenDELETE(rx('.*backand\.com.*'))
-                .passThrough();
+            .passThrough();
 
 
         return {};
     }
 
-}(angular));
+} (angular));

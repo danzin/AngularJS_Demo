@@ -1,0 +1,893 @@
+{
+  "calculatedTrainings": [],
+  "trainings": {
+    "male": {
+      "gtFourty": {
+        "gt120": {
+          "loose": [
+            {
+              "name": "Crunches - 20 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Running - 5 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/man-running.gif"
+            },
+            {
+              "name": "Cycling - 10 km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/man-cycling.gif"
+            },
+            {
+              "name": "Swimming - 1 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/man-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Flat Chest Presses - 4 series 10 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 10 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 4 series 6 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 4 series 6 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 4 series 10 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Flat Chest Presses - 3 series 15 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals - 3 series 15 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 3 series 10 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 3 series 10 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 3 series 15 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ]
+        },
+        "gt70": {
+          "loose": [
+            {
+              "name": "Crunches - 30 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Running - 15 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/man-running.gif"
+            },
+            {
+              "name": "Cycling - 20 km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/man-cycling.gif"
+            },
+            {
+              "name": "Swimming - 3 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/man-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Flat Chest Presses - 4 series 15 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 15 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 4 series 8 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 4 series 8 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 4 series 15 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Flat Chest Presses - 3 series 25 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals - 3 series 25 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 3 series 12 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 3 series 12 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 3 series 25 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ]
+        },
+        "lt70": {
+          "loose": [
+            {
+              "name": "Crunches - 40 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Running - 20 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/man-running.gif"
+            },
+            {
+              "name": "Cycling - 30 km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/man-cycling.gif"
+            },
+            {
+              "name": "Swimming - 5 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/man-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Flat Chest Presses - 4 series 15 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 15 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 4 series 8 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 4 series 8 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 4 series 15 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Flat Chest Presses - 3 series 35 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals - 3 series 35 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 3 series 14 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 3 series 14 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 3 series 35 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ]
+        }
+      },
+      "gtTwenty": {
+        "gt120": {
+          "loose": [
+            {
+              "name": "Crunches - 30 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Running - 15 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/man-running.gif"
+            },
+            {
+              "name": "Cycling - 20km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/man-cycling.gif"
+            },
+            {
+              "name": "Swimming - 5 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/man-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Flat Chest Presses - 4 series 25 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 25 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 4 series 12 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 4 series 12 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 4 series 25 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Flat Chest Presses - 3 series 32 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals - 3 series 32 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 3 series 22 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 3 series 22 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 3 series 32 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ]
+        },
+        "gt70": {
+          "loose": [
+            {
+              "name": "Crunches - 30 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Running - 15 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/man-running.gif"
+            },
+            {
+              "name": "Cycling - 20km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/man-cycling.gif"
+            },
+            {
+              "name": "Swimming - 5km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/man-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Flat Chest Presses - 4 series 25 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 25 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 4 series 14 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 4 series 14 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 4 series 25 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Flat Chest Presses - 3 series 45 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals - 3 series 45 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 3 series 32 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 3 series 32 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 3 series 55 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ]
+        },
+        "lt70": {
+          "loose": [
+            {
+              "name": "Crunches - 30 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Running - 25 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/man-running.gif"
+            },
+            {
+              "name": "Cycling - 40km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/man-cycling.gif"
+            },
+            {
+              "name": "Swimming - 10km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/man-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Flat Chest Presses - 4 series 35 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 35 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 4 series 14 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 4 series 14 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 4 series 14 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Flat Chest Presses - 3 series 45 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/man-flatpress.gif"
+            },
+            {
+              "name": "Abdominals - 3 series 45 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/man-crunches.gif"
+            },
+            {
+              "name": "Concentration Curls - 3 series 16 pulls",
+              "information": "Sit on edge of bench with feet flat on the floor.Holding dumbbell place elbow on inside of thigh, just above knee.Curl dumbbell up towards your face. Do not swing back as you lift the weight.Slowly lower the weight and repeat for desired number of reps before switching arms.",
+              "image": "/data/images/man-biceps.gif"
+            },
+            {
+              "name": "Overhead Triceps Extensions - 3 series 16 pushes",
+              "information": "Stand upright, feet shoulder width apart.Hold dumbbell directly above head with arm fully extended. Clasp elbow with free hand for support.Slowly let elbow fold so dumbbell is lowered behind head.Extend arm back to starting position. Repeat for the desired number of reps and switch arms.",
+              "image": "/data/images/man-triceps.gif"
+            },
+            {
+              "name": "Lying Bent Over Rows - 3 series 45 pulls",
+              "information": "Lie face down on a flat or slightly inclined bench. Hold two dumbbells and let arms hang down.Pull dumbbells up towards chest.Slowly lower dumbbells back down and repeat.",
+              "image": "/data/images/man-back.gif"
+            }
+          ]
+        }
+      }
+    },
+    "female": {
+      "gtFourty": {
+        "gt120": {
+          "loose": [
+            {
+              "name": "Crunches - 10 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Running - 3 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/woman-running.gif"
+            },
+            {
+              "name": "Cycling - 10km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/woman-cycling.gif"
+            },
+            {
+              "name": "Swimming - 1 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/woman-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Sling Chest Presses - 4 series 8 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 8 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 4 series 8 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 4 series 20 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Sling Chest Presses - 5 series 20 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 5 series 20 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 5 series 20 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 5 series 40 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ]
+        },
+        "gt70": {
+          "loose": [
+            {
+              "name": "Crunches - 20 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Running - 4 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/woman-running.gif"
+            },
+            {
+              "name": "Cycling - 15km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/woman-cycling.gif"
+            },
+            {
+              "name": "Swimming - 2 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/woman-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Sling Chest Presses - 4 series 10 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 10 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 4 series 10 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 4 series 25 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Sling Chest Presses - 5 series 25 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 5 series 25 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 5 series 25 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 5 series 50 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ]
+        },
+        "lt70": {
+          "loose": [
+            {
+              "name": "Crunches - 25 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Running - 5 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/woman-running.gif"
+            },
+            {
+              "name": "Cycling - 20km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/woman-cycling.gif"
+            },
+            {
+              "name": "Swimming - 3 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/woman-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Sling Chest Presses - 4 series 12 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 12 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 4 series 12 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 4 series 35 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Sling Chest Presses - 5 series 35 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 5 series 35 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 5 series 35 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 5 series 60 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ]
+        }
+      },
+      "gtTwenty": {
+        "gt120": {
+          "loose": [
+            {
+              "name": "Crunches - 30 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Running - 6 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/woman-running.gif"
+            },
+            {
+              "name": "Cycling - 25km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/woman-cycling.gif"
+            },
+            {
+              "name": "Swimming - 4 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/woman-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Sling Chest Presses - 4 series 14 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 14 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 4 series 14 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 4 series 40 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Sling Chest Presses - 5 series 40 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 5 series 40 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 5 series 40 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 5 series 70 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ]
+        },
+        "gt70": {
+          "loose": [
+            {
+              "name": "Crunches - 35 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Running - 7 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/woman-running.gif"
+            },
+            {
+              "name": "Cycling - 30km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/woman-cycling.gif"
+            },
+            {
+              "name": "Swimming -5  km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/woman-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Sling Chest Presses - 4 series 16 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 16 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 4 series 16 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 4 series 45 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Sling Chest Presses - 5 series 45 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 5 series 45 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 5 series 45 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 5 series 80 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ]
+        },
+        "lt70": {
+          "loose": [
+            {
+              "name": "Crunches - 40 repeats",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Running - 8 km",
+              "information": "Running is a great way to get into shape, but did you know that it can benefit almost every part of your body, as well as lift your mood",
+              "image": "/data/images/woman-running.gif"
+            },
+            {
+              "name": "Cycling - 35km",
+              "information": "Cycling can improve your brainpower, relationships, health and happiness Cycling regularly is a surefire way to keep illness at bay Cycling can help you lose pounds Cyclists breathe in fewer fumes on the street than drivers Cycling is something the whole family can do together",
+              "image": "/data/images/woman-cycling.gif"
+            },
+            {
+              "name": "Swimming - 6 km",
+              "information": "Swimming benefits include improved flexibility, reduced diabetes risk, and anti-aging effects.",
+              "image": "/data/images/woman-swimming.gif"
+            }
+          ],
+          "strength": [
+            {
+              "name": "Sling Chest Presses - 4 series 18 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 4 series 18 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 4 series 18 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 4 series 50 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ],
+          "stamina": [
+            {
+              "name": "Sling Chest Presses - 5 series 50 presses",
+              "information": "Lying flat on bench, hold the dumbbells directly above chest, arms extended.Lower dumbbells to chest in a controlled manner.Press dumbbells back to starting position and repeat.Avoid locking elbows ",
+              "image": "/data/images/woman-flatpress.gif"
+            },
+            {
+              "name": "Abdominals: 5 series 50 crunches",
+              "information": "The crunch is one of the most common abdominal exercises. It primarily works the rectus abdominis muscle and also works the obliques.",
+              "image": "/data/images/woman-crunches.gif"
+            },
+            {
+              "name": "Skipping rope - 5 series 50 jumps",
+              "information": "Skipping may be used for a cardiovascular workout, similar to jogging or bicycle riding. This aerobic exercise can achieve a burn rate of up to 700 calories per hour of vigorous activity, with about 0.1 calories consumed per jump. ",
+              "image": "/data/images/woman-rope.gif"
+            },
+            {
+              "name": "Stepper - 5 series 90 steps",
+              "information": "Cardiovascular exercise involves the major muscle groups performing work for long durations with little to no added resistance.",
+              "image": "/data/images/woman-stepper.gif"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

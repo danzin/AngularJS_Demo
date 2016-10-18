@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="app" ng-controller="mainCtrl">
 <head>
-    <title>qqq</title>
+    <title></title>
     <!-- build:css styles/lib.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="vendor/bootstrap-css-only/css/bootstrap.css" />
@@ -19,7 +19,9 @@
     <!-- endinject -->
     <!-- endbuild -->
     <link rel="stylesheet" href="vendor/alertifyjs/dist/css/alertify.css">
-    <script src='//maps.googleapis.com/maps/api/js'></script>
+    <!--google api-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDUQVimvvMF6OGukcy9Mh2kmzLKI7MsxM&callback=initMap"></script>
+    <!--end google api-->
 </head>
 
 <body>
@@ -105,6 +107,8 @@
     <script src="vendor/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.js"></script>
     <script src="vendor/js-rich-marker/src/richmarker.js"></script>
     <script src="vendor/angular-google-maps/dist/angular-google-maps.js"></script>
+    <script src="vendor/ngmap/build/scripts/ng-map.js"></script>
+    <script src="vendor/angular-messages/angular-messages.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -118,17 +122,31 @@
     <script src="conf.js"></script>
     <script src="mainCtrl.js"></script>
     <script src="services/api.js"></script>
+    <script src="services/calculatorService.js"></script>
+    <script src="services/calendarService.js"></script>
+    <script src="services/dictionary.js"></script>
     <script src="services/example.js"></script>
+    <script src="services/login.js"></script>
+    <script src="services/mapService.js"></script>
     <script src="services/mockData.js"></script>
     <script src="services/mocks.js"></script>
+    <script src="services/music.js"></script>
     <script src="services/notify.js"></script>
     <script src="services/t.js"></script>
     <script src="components/action/action.js"></script>
     <script src="components/menu/menu.js"></script>
+    <script src="states/calculator/calculator.js"></script>
+    <script src="states/calendar/calendar.js"></script>
+    <script src="states/dictionary/dictionary.js"></script>
     <script src="states/hi/hi.js"></script>
     <script src="states/home/home.js"></script>
+    <script src="states/map/map.js"></script>
+    <script src="states/login/login.js"></script>
+    <script src="states/music/music.js"></script>
     <script src="states/news/news.js"></script>
+    <script src="states/registration/registration.js"></script>
     <script src="states/rx/rx.js"></script>
+    <script src="states/users/mockData.js"></script>
     <script src="states/users/users-edit.js"></script>
     <script src="states/users/users.js"></script>
     <script src="libs/datatables/datatables.min.js"></script>

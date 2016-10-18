@@ -38,6 +38,12 @@
     function link($scope, el, attrs, form) {
         // console.log($scope, el, attrs, form);
         // $scope.label = attrs['label'] || '';
+        $on('$stateChangeStart', 
+function(event, toState, toParams, fromState, fromParams, options){ 
+    event.preventDefault(); 
+    // transitionTo() promise will be rejected with 
+    // a 'transition prevented' error
+})
     }
 
 

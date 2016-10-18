@@ -1,0 +1,54 @@
+<!--Registration Page -->
+  <div class="imgcontainer">
+    <img src="states/login/assets/loginPic.png" alt="Avatar" class="avatar">
+  </div>
+
+<div id="form_container">
+<form name="registrationForm" ng-submit="submit()" novalidate>
+	<div class="control-group">
+		<div class="row">
+			<div class="col-md-6">
+				<label for="firstName"> First Name: </label>
+				<input type="text" name="firstName" ng-model="data.firstName" ng-minlength="2" ng-maxlength="10" required>
+
+				<div ng-messages="registrationForm.firstName.$error" ng-if="registrationForm.firstName.$touched || registrationForm.$submitted">
+					<div ng-message="required"> Enter Username! </div>
+					<div ng-message="minlength"> Too Short! </div>
+					<div ng-message="maxlength"> Too Long! </div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<label for="lastName"> Last Name: </label>
+				<input type="text" name="lastName" ng-model="data.lastName" ng-minlength="2" ng-maxlength="10" required>
+
+				<div class="error-container">
+				<div ng-messages="registrationForm.lastName.$error" ng-if="registrationForm.lastName.$touched || registrationForm.$submitted">
+					<div ng-message="required"> Enter Username! </div>
+					<div ng-message="minlength"> Too Short! </div>
+					<div ng-message="maxlength"> Too Long! </div>
+				</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="control-group">
+		<div class="row">
+			<div class="col-md-6">
+				<label for="username"> Username: </label>
+				<input type="text" name="username" ng-model="data.username" required ng-minlength="4" ng-maxlength="10">
+
+				<div ng-messages="registrationForm.username.$error" ng-if="registrationForm.username.$touched || registrationForm.$submitted">
+					<div ng-message="required"> Enter Username! </div>
+					<div ng-message="minlength"> Too Short! </div>
+					<div ng-message="maxlength"> Too Long! </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<button class="form-control" type="submit" id="submitter"> Submit </button>
+</div>
+

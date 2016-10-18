@@ -1,0 +1,119 @@
+<div class="container">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h2>Training calculator</h2>
+			<h4>Enter your weight, age and gender below and choose what kind of training you would prefer</h4>
+		</div>
+		<div class="panel-body">
+			<!-- Do check for validation of the form and after that submit it and do request to json server-->
+			<form class="form-inline" ng-submit="collectInfo.$valid && checkTraining(user)" name="collectInfo" novalidate>
+				<div class="well row">
+					<p class="alert alert-danger">Calculations are available for people from 20 years old to 70 years old</p>
+					<div class="collect-info">
+						<div class="form-group col-md-4 ">
+							<label for="weight"><h4>Weight:</h4></label>
+							<!--Use ng-class to paint red field when it is touched or invalid-->
+							<input ng-class="{ errorinput: collectInfo.weight.$invalid && (collectInfo.weight.$touched || collectInfo.$submitted)}" name="weight"
+								min="35" max="250" ng-model="user.weight" type="number" class="form-control" id="weight" placeholder="Enter weight in kg"
+								required>
+							<div class="not-move" ng-messages="collectInfo.weight.$error" ng-if="collectInfo.weight.$touched || collectInfo.$submitted">
+								<!--First is displayed the required message -->
+								<div ng-message="required">You forgot to enter your weight</div>
+								<!-- Message incase the weight is too less-->
+								<div ng-message="min">Weight is less than permissible</div>
+								<!-- Message if weight is too much -->
+								<div ng-message="max">Weight is too much</div>
+							</div>
+						</div>
+						<div class="form-group col-md-4">
+							<label for="age"><h4>Age:</h4></label>
+							<!--Use ng-class to paint red field when it is touched or invalid-->
+							<input ng-class="{ errorinput: collectInfo.age.$invalid && (collectInfo.age.$touched || collectInfo.$submitted)}" name="age"
+								min="20" max="70" ng-model="user.age" type="number" class="form-control" id="age" placeholder="Enter age" required>
+							<div class="not-move" ng-messages="collectInfo.age.$error" ng-if="collectInfo.age.$touched || collectInfo.$submitted">
+								<!-- the required message is displayed first... -->
+								<div ng-message="required">You forgot to enter your age</div>
+								<!-- then, incase the age are ubder 20 is too short, show the message right after -->
+								<div ng-message="min">Your age are underneath 20</div>
+								<!-- of if is too long then let us know -->
+								<div ng-message="max">Your age are more than 70</div>
+							</div>
+						</div>
+						<div class="radio col-md-4">
+							<label>Gender:</label>
+							<label><input ng-model="user.gender" type="radio" name="gender" value="male" required>Male</label>
+							<label><input ng-model="user.gender" type="radio" name="gender" value="female" required>Female</label>
+							<!-- Throw error if one of radio buttons isn't checked and use ng if to show the message when user try to submit -->
+							<!-- Class not-move just make div element of messages to don't change height of the parent div-->
+							<div class="not-move" ng-messages="collectInfo.gender.$error" ng-if="collectInfo.$submitted">
+								<div ng-message="required">You forgot to choose your gender</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="alert alert-info training-types">
+					<div class="row">
+						<div class="col-md-12"><label><h3>What is your aim:</h3></label></div>
+					</div>
+					<div class="row" class="collect-info">
+						<div class="col-md-4"><label><input ng-model="user.trainingType" type="radio" name="trainingType" value="loose" required>Loose weight</label></div>
+						<div class="col-md-4"><label><input ng-model="user.trainingType" type="radio" name="trainingType" value="strength" required>Evolve your strenght</label></div>
+						<div class="col-md-4"><label><input ng-model="user.trainingType" type="radio" name="trainingType" value="stamina" required> Increase your body stamina</label></div>
+						<!-- Throw error if one of radio buttons isn't checked and use ng if to show the message when user try to submit -->
+						<!-- Class not-move just make div element of messages to don't change height of the parent div-->
+						<div class="not-move little-fix" ng-messages="collectInfo.trainingType.$error" ng-if="collectInfo.$submitted">
+							<div ng-message="required">You forgot to choose your type of training</div>
+						</div>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#resultModal">Check it!</button>
+			</form>
+			<!-- Use ng if to show the pop up modal with approparite training when the form is valid-->
+			<div id="resultModal" class="modal fade bd-example-modal-lg" role="dialog" ng-if="collectInfo.$valid">
+				<div class="modal-dialog modal-lg">
+					<!-- Modal content result from server is output here-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">The best training for you is:</h4>
+						</div>
+						<div class="modal-body">
+							<div class="well">
+								<div class="row">
+									<!-- User parameters -->
+									<div class="col-md-12"><span class="glyphicon glyphicon-user"></span>User parameters:</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">Weight: {{user.weight}}</div>
+
+									<div class="col-md-4">Age: {{user.age}}</div>
+
+									<div class="col-md-4">Gender: {{user.gender}}</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<h4>User aim: {{user.trainingType}}</h4>
+									<!-- Use of ng repeat directive for iterating the incoming array from json server  -->
+									<div class="row" ng-repeat="train in training">
+										<div class="col-md-8">
+											<!-- Output name of train in expression-->
+											<h4>{{train.name}}</h4>
+											<ul>
+												<!-- Output information about the train in expression-->
+												<li>{{train.information}}</li>
+											</ul>
+										</div>
+										<img class="col-md-4" id="img-train" ng-src="{{train.image}}" />
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,41 @@
+calculator {
+    font-size: 16px;
+    .collect-info {
+        padding-bottom: 28px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+   .collect-info input[name=weight], .collect-info input[name=age]   {
+        width: 56%;
+    }
+      .collect-info > div:nth-child(2) > .not-move {
+        right: 14%;
+      }
+       .collect-info > div:nth-child(3) > .not-move {
+        right: 25%;
+      }
+    .not-move {
+        height: 100%;
+        width: 70%;
+        position: absolute;
+        right: 8%;
+        top: 100%;
+        color:rgb(169, 66, 66);
+    }
+    .training-types {
+        padding-bottom: 5%;
+    }
+    .little-fix {
+        left: 35%;
+        top: 78%;
+    }    
+    .errorinput {
+        background-color:#f2dede; 
+    }
+    #img-train {
+        width:260px;
+        height:180px;
+    }
+}
